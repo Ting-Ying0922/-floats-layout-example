@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav-item {
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    left: 800px;
+    margin-right: 40px;
+}
+
+.nav-item1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.content-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    overflow: hidden; /* 清除浮動 */
+}
+
+.sidebar {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: peachpuff; /* 膚色框框 */
+    margin-right: 20px;
+    border: 2px solid #000;
+}
+
+.content {
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    line-height: 1.6;  /* 增加行高 */
+    text-align: justify;  /* 文字兩端對齊 */
+}
+
+/*  */
+
+.content-container2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    overflow: hidden; /* 清除浮動 */
+}
+
+.sidebar2 {
+    float: right;
+    width: 150px;
+    height: 150px;
+    background-color: peachpuff; /* 膚色框框 */
+    margin-right: 20px;
+    border: 2px solid #000;
+}
+
+.content2 {
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.content2 h2 {
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    margin-bottom: 10px;
+    line-height: 1.6;  /* 增加行高 */
+    text-align: justify;  /* 文字兩端對齊 */
+}
+
+/*  */
+
+.content-container3 {
+    position: relative;
+    /* width: 100%; */
+    margin: 20px ;
+    padding: 30px;
+    height: 300px;
+    border: 1px solid gray;
+    /* overflow: hidden;  */
+}
+
+.sidebar3 {
+    float: right;
+    width: 300px;
+    height: 150px;
+    background-color: peachpuff; 
+    border: 2px solid #000;
+}
+
+.sidebar4 {
+    float: left;
+    width: 300px;
+    height: 150px;
+    background-color: peachpuff; 
+    border: 2px solid #000;
+}
+
+.content3 {
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+    position: relative;
+    top:150px;
+    clear: both;
+}
+
+.content3 h2 {
+    margin-bottom: 10px;
+    
+}
+
+.container3 p {
+    border: solid 1px;
+    margin-bottom: 10px;
+    line-height: 1.6;  /* 增加行高 */
+    text-align: justify;  /* 文字兩端對齊 */
+    /* clear: both; */
+}
+
+.footer {
+    position: relative;
+    height: 100px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+.item{
+    position: relative;
+    left: 500px;
+    top: 50px;
+    margin: 0 10px;
+    background-color: lightblue;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: solid 1px;
+}
